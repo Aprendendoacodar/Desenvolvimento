@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kaushan+Script&family=Lobster&family=Noto+Serif:wght@400;700&family=Oswald:wght@200;300;400&family=Roboto:ital,wght@1,100;1,400&family=Supermercado+One&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{}
+
+nav{
+	text-align: right;
+	margin: 15px;
+}
+
+a{
+	font: 1.2rem 'Supermercado One', cursive;
+	text-decoration: none;
+	color: #1976D2;
+}
+
+.a-menu{
+	margin-left: 30px;
+	font: 1.2rem 'Roboto', sans-serif;
+}
+
+
+header{
+	width: 100%;
+	float: left;
+	background-color: beige;
+}
+#texto{
+	text-align: right;
+	margin-top: 120px;
+
+}
+
+img{
+	width: 55%;
+	height: 400px;
+	float: right;
+}
+
+
+
+#conteudo{
+	background-color: #BDBDBD;
+	padding: 50px;
+	margin: 20px;
+	font-family:Roboto;
+       font-size:10px;
+       color:black;
+       text-align:justify
+}
+
+h1{
+	padding: 20px;
+	font-family:'Roboto' sans-serif;
+       font-size:50px;
+       color:#B0E0E6;
+       text-align:center;
+       text-shadow: 2px 2px 2px black;
+}
+
+#pag-bestsellers, p{
+	padding: 30px;
+	font-family:'Roboto' sans-serif;
+	font-size:20px;
+	color:#1C1C1C;
+	text-align:justify; 
+	text-indent:2px;
+}
+
+article{}
+
+ #fotos-livros{
+ 	display: flex;
+ 	padding: 5px;
+ 	border-radius: 4px;
+ 	width: 90%;
+ 	border: 1px solid #ddd;
+  }
+
+h2{
+	font-family:kaushan script sans-serif;
+             font-size:2.2rem;
+             color:#800000;
+             text-align:center;
+             text-shadow: 2px 2px 2px black;
+}
+
+aside{
+	width: 100%;
+	clear: both;}
+
+h3, p{
+	font-family:Roboto,sans-serif;
+	font-size:24px;
+	color:#1C1C1C;
+	text-align:center; 
+	text-indent:2px;
+	margin-bottom: 20px;
+}
+
+#pag-cadastro{
+
+}
+ 
+form{
+	width: 400px;
+	background-color: beige;
+	margin: auto;
+}
+
+input{
+	width: 100%;
+	height: 30px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+}
+
+label{
+	font: 1rem 'Roboto', sans-serif;
+}
+
+#nome-sobrenome{
+	display: flex;
+}
+
+#botao{}
+
+input [type="submit"]{}
+
+footer{
+	margin: auto;
+	font: 1rem 'Roboto', sans-serif;
+	clear: both;
+	display: flex;
+}
+
+footer p{
+	color: #757575;
+}
+footer a{
+	font: 1rem 'Anton', sans-serif;
+	color: #212121;
+}
+
+footer a:hover{
+	color: yellow;
+}
